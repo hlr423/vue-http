@@ -28,11 +28,10 @@
 
  ### button style Constructor Options
  
- url |data| method  | dataType |
- ----|-----| ----- | ------ | 
- 接口地址 |request params   | get    | params | 
- url传参 |无   | post   | json  | 
-    |    |     |put    | FormData   |   
-    |    |     |delete | 
-    |    |     | ... | 
-
+ method |dataType| data  | url      |
+ ----   |-----   | ----- | ------   | 
+ get    | params  | data | 接口地址 | 
+ post   | json    | 无   | url传参  | 
+ put    | FormData|                 | 
+ delete |              
+  ...   |   
